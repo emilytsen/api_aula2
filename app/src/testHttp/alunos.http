@@ -1,0 +1,26 @@
+@baseUrl = https://8080-marcoweb-j220242a1-upzkfe1vid6.ws-us115.gitpod.io
+
+###
+GET {{baseUrl}}/alunos
+
+###
+POST {{baseUrl}}/alunos
+Content-Type: application/json
+
+{
+    "nome": "Marco Carvalho"
+}
+
+###
+GET {{baseUrl}}/alunos/2
+
+###
+PUT {{baseUrl}}/alunos/1
+Content-Type: application/json
+
+{
+    "nome": ""
+}
+
+###
+DELETE {{baseUrl}}/alunos/2
